@@ -1,0 +1,12 @@
+dependencies:
+- name: spire
+  repository: ""
+  version: 0.1.0
+- name: prefix-service
+  repository: ""
+  version: 0.1.0
+- name: config
+  repository: file://../config
+  version: 0.1.0
+digest: sha256:c2c47d335460dc97a5cf402feb5d259177c009a761b37054b2656538cdedf0a9
+generated: "2020-02-07T05:46:26.121948455Z"

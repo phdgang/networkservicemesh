@@ -1,0 +1,19 @@
+---
+# Default values for crossconnect-monitor.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+registry: docker.io
+org: networkservicemesh
+tag: master
+pullPolicy: IfNotPresent
+insecure: false
+
+spire:
+  enabled: true
+
+# Variable used to deploy Prometheus
+# Values can be true or false
+prometheus: false
+
+metricsCollectorEnabled: false
