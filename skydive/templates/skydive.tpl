@@ -83,7 +83,7 @@ spec:
     spec:
       containers:
         - name: skydive-analyzer
-          image: skydive/skydive:0.23.0
+          image: phdgang/skydive:0.23.0
           imagePullPolicy: {{ .Values.pullPolicy }}
           args:
             - analyzer
@@ -149,7 +149,7 @@ spec:
       hostPID: true
       containers:
         - name: skydive-agent
-          image: skydive/skydive:0.24.0
+          image: phdgang/skydive:0.24.0
           imagePullPolicy: {{ .Values.pullPolicy }}
           args:
             - agent

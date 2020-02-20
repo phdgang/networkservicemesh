@@ -29,7 +29,7 @@ spec:
               mountPath: /run/spire/sockets
               readOnly: true
         - name: proxy-nsmd-k8s
-          image: {{ .Values.registry }}/{{ .Values.org }}/proxy-nsmd-k8s:{{ .Values.tag }}
+          image: {{ .Values.org }}/proxy-nsmd-k8s:{{ .Values.tag }}
           imagePullPolicy: {{ .Values.pullPolicy }}
           ports:
             - containerPort: 5005
